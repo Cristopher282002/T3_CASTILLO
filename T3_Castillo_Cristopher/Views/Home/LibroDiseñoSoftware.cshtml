@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "LibrosDisenoSoftware";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<center><h1>Libros de Diseño de Software</h1></center>
+<div class="d-flex justify-content-around">
+    <div class="text-center libro">
+        <h1 class="display-4 titulo-libro">"Design Patterns: Elements of Reusable Object-Oriented Software"</h1>
+        <p>Este clásico libro, conocido como el "Libro de los Cuatro", introduce 23 patrones de diseño que 
+            son soluciones comprobadas a problemas comunes en el diseño de software orientado a objetos. Cada patrón
+            está descrito con su propósito, cuándo usarlo, y cómo implementarlo, incluyendo diagramas UML y ejemplos de código en C++.</p>
+        <img src="https://images.cdn2.buscalibre.com/fit-in/360x360/6e/be/6ebeeb59e092ce1513358d4560073ae1.jpg" style="width: 200px; height: auto;" />
+    </div>
+    <div class="text-center libro">
+        <h1 class="display-4 titulo-libro">"Clean Code: A Handbook of Agile Software Craftsmanship"</h1>
+        <p>Este libro se enfoca en los principios y mejores prácticas para escribir código limpio y mantenible. Robert C. 
+            Martin, también conocido como "Uncle Bob", ofrece consejos prácticos y ejemplos de código en Java para enseñar cómo
+            estructurar y organizar el código para que sea fácil de leer, entender y modificar. También cubre temas como la refactorización
+            y las pruebas de unidad.</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR7BRzSMiCicUFPwEMcWwMEqBZ7ifI57cDrw&s" style="width: 200px; height: auto;" />
+    </div>
+    <div class="text-center libro">
+        <h1 class="display-4 titulo-libro">"Domain-Driven Design: Tackling Complexity in the Heart of Software"</h1>
+        <p>Este libro se centra en el diseño dirigido por el dominio (DDD), un enfoque que ayuda a manejar la complejidad en
+            proyectos de software grandes y complejos. Eric Evans presenta técnicas para modelar y construir software basado 
+            en un entendimiento profundo del dominio del problema. El libro ofrece patrones y principios para la colaboración
+            entre expertos en dominios y desarrolladores, y cómo reflejar ese conocimiento en el diseño del software.</p>
+        <img src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/33cd7d27-7bca-4d52-aad6-698145aec419.__CR200,0,1200,1200_PT0_SX300_V1___.png" style="width: 200px; height: auto;" />
+    </div>
+</div>
+
+<style>
+    .libro {
+        border-right: 1px solid #ccc; 
+        padding-right: 20px; 
+        margin-right: 20px; 
+    }
+
+    .titulo-libro {
+        font-size: 24px; /* Puedes ajustar el tamaño de fuente según tu preferencia */
+    }
+</style>
